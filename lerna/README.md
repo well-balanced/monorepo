@@ -68,7 +68,8 @@ node module resolution algorithm은 재귀적으로 동작한다.
 이후 `../node_modules/halmet`, `../../node_moduels/halmet`로 로컬에서 점점 전역으로 나아가며 패키지를 탐색한다.
 
 많은 도구들이 이러한 스펙을 따라가고는 있지만, 몇몇 도구들은 이런 스펙에 닫혀있어 현재 디렉토리의 `node_modules`에 모든 의존성들이 있다고 가정하는 경우가 있다. 
-(vscode git diff 못 잡는 경우가 간혹 있음)
+- vscode git diff 못 잡는 경우가 간혹 있음
+- nest app 생성할 때 `tsconfig.json` 파일 못 찾아서 디렉터리 지정해줌
 
 이런 문제를 해결하기 위해 root에 위치한 모듈들에 symlink를 걸어둔 바이너리 파일을 로컬에 위치한 `node_moduels`에 걸어두기는 하지만 lerna에서는 이를 자동으로 지원해주지 않고 있다고 말한다.
 
