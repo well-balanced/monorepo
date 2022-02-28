@@ -1,7 +1,10 @@
 {
   "private": true,
-  "scripts": {
-    "build:shared": "yarn workspace shared build"
+  "scripts": {    
+    "dev:server": "lerna run --scope server start:dev",
+    "dev:client": "lerna run --scope client dev",
+    "start:server": "lerna run --scope server start",
+    "start:client": "lerna run --scope client start"
   },
   "workspaces": [
     "packages/*"
