@@ -1,0 +1,14 @@
+{
+  "name": "yarn-workspace",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": ["client", "server", "shared"],
+  "scripts": {
+    "dev:client": "yarn workspace @monorepo/client dev",
+    "dev:server": "yarn workspace @monorepo/server start:dev",
+    "start:client": "yarn workspace @monorepo/client start",
+    "start:server": "yarn workspace @monorepo/server start"
+  }
+}
