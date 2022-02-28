@@ -1,8 +1,8 @@
 # yarn-workspace
 
-[getting started](https://classic.yarnpkg.com/en/docs/workspaces)
+- [getting started](https://classic.yarnpkg.com/en/docs/workspaces)
 
-[workspace cli](https://classic.yarnpkg.com/en/docs/cli/workspace#yarn-workspace-workspace_name-command-)
+- [workspace cli](https://classic.yarnpkg.com/en/docs/cli/workspace#yarn-workspace-workspace_name-command-)
 
 ## Setup
 
