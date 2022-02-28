@@ -1,0 +1,26 @@
+{
+  "name": "shared",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "well-balanced <iam.woosik.kim@gmail.com>",
+  "homepage": "https://github.com/well-balanced/monorepo#readme",
+  "license": "ISC",
+  "main": "dist",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/well-balanced/monorepo.git"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "bugs": {
+    "url": "https://github.com/well-balanced/monorepo/issues"
+  }
+}
