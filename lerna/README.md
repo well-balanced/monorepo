@@ -1,5 +1,28 @@
 # lerna
 
+
+## Setup
+
+### build shared package
+```sh
+$ lerna build
+```
+
+### start server
+```sh
+$ lerna run --scope server start
+```
+
+### start client
+```sh
+$ lerna run --scope scope start
+```
+
+### start client & server
+```sh
+$ lerna run start
+```
+
 ## features
 - 다중 패키지의 종속성 관리 및 모듈의 중복성 제거
 - 버전 관리
@@ -100,29 +123,6 @@ $ lerna add [node module] --scope=[lerna package]
 
 # e.g.
 $ lerna add express --scope=server
-```
-
-
-## Setup
-
-### build shared package
-```sh
-$ lerna build
-```
-
-### start server
-```sh
-$ lerna run --scope server start
-```
-
-### start client
-```sh
-$ lerna run --scope scope start
-```
-
-### start client & server
-```sh
-$ lerna run start
 ```
 
 ## References
