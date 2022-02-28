@@ -5,19 +5,28 @@
     "defaultBase": "main"
   },
   "cli": {
-    "defaultCollection": "@nrwl/workspace"
+    "defaultCollection": "@nrwl/nest"
   },
   "tasksRunnerOptions": {
     "default": {
       "runner": "@nrwl/nx-cloud",
       "options": {
-        "cacheableOperations": [
-          "build",
-          "lint",
-          "test",
-          "e2e"
-        ],
+        "cacheableOperations": ["build", "lint", "test", "e2e"],
         "accessToken": "YmYyM2UzMzAtN2NmMi00OGJmLTg5MDItZDFhZDc1ZDJjN2I4fHJlYWQtd3JpdGU="
+      }
+    }
+  },
+  "defaultProject": "server",
+  "generators": {
+    "@nrwl/react": {
+      "application": {
+        "babel": true
+      }
+    },
+    "@nrwl/next": {
+      "application": {
+        "style": "@emotion/styled",
+        "linter": "eslint"
       }
     }
   }
