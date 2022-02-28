@@ -11,11 +11,15 @@ $ lerna build
 ### start server
 ```sh
 $ lerna run --scope server start
+# or
+$ npm run start:server
 ```
 
 ### start client
 ```sh
 $ lerna run --scope scope start
+# or
+$ npm run start:client
 ```
 
 ### start client & server
