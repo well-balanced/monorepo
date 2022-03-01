@@ -1,2 +1,8 @@
 node_modules
 dist
+
+# turbo
+.turbo
+build/**
+dist/**
+.next/**
